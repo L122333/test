@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: #000;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-transform: none;
+}
+
+header p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+
+.section-title {
+    font-size: 16px;
+    border-bottom: 1.5px solid #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* 讓內容左右對齊 */
+    align-items: baseline;
+}
+
+.date {
+    font-style: italic;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+strong {
+    font-size: 15px;
+}
+
+/* 針對列印的優化（如果要把網頁存成 PDF） */
+@media print {
+    body { background: none; padding: 0; }
+    .resume-container { box-shadow: none; max-width: 100%; margin: 0; padding: 0; }
+}
